@@ -1,0 +1,33 @@
+import itertools
+
+print('='*70)
+
+numeros1 = list()
+numeros2 = list()
+numeros3 = list()
+
+print('digite 10 numeros do vetor A: ')
+
+for numero in range(10):
+    
+    numeros1.append(int(input(f'{numero+1}ª numero: ')))
+    
+print('='*70)
+    
+print('digite 10 numeros do vetor B: ')
+    
+for numeros in range(10):
+    
+    numeros2.append(int(input(f'{numeros+1}ª numero: ')))
+    
+print('='*70)
+
+numeros3 = list(itertools.chain(*zip(numeros1, numeros2)))
+    
+print('vetor A: {}'.format(numeros1))
+
+print('vetor B: {}'.format(numeros2)) 
+    
+print('listas intercaladas: {}'.format(numeros3))
+
+print('='*70)

@@ -1,0 +1,13 @@
+print('='*70)
+
+nome = str()
+
+nome = input("Digite um nome: ")
+
+x = len(nome)
+
+for l in range(x):
+        
+    print(nome[:l+1])
+
+print('='*70)

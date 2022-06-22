@@ -1,0 +1,53 @@
+print('='*70)
+
+lista1 = str()
+lista2 = str()
+
+lista1 = (input('insira uma string: '))
+
+lista2 = (input('insira outra string: '))
+
+print('='*70)
+
+print('string 1: {}'.format(lista1))
+
+print('string 2: {}'.format(lista2))
+
+for string in range(1):
+    
+    t1 = len(lista1)
+    t2 = len(lista2)
+
+    print('o tamanho de string 1 é de: {} caracteres'.format(t1))
+    
+    print('o tamanho de string 2 é de: {} caracteres'.format(t2))
+    
+def check_len(lista1, lista2):
+    
+    a = len(lista1)
+    b = len(lista2)
+    
+    if (a == b):
+        
+        print('as strings possuem tamanhos iguais.')
+        
+    else:
+        
+        print('as strings não possuem o mesmo tamanho.')
+      
+if (lista1 == lista2):
+        
+    print('as duas strings possuem o mesmo conteudo.')
+    
+else:
+    
+    print('as duas strings possuem conteúdo diferente.')
+
+
+
+check_len(lista1, lista2)
+
+
+
+
+print('='*70)

@@ -1,0 +1,13 @@
+print('='*70)
+
+
+nome = str()
+
+nome = input('digite um nome: ')
+
+for string in nome:
+    
+    print(string)
+          
+    
+print('='*70)

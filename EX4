@@ -1,0 +1,15 @@
+print('='*70)
+
+numeros = list()
+
+print('adicione 10 numeros:')
+
+for numero in range(10):
+    
+    numeros.append(float(input(f'{numero+1}ª numero: ')))
+             
+soma = sum(map(lambda i : i * i, numeros))
+
+print('a soma dos quadrados do numeros é: {}'.format(soma))
+    
+print('='*70)

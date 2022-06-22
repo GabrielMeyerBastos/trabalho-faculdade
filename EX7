@@ -1,0 +1,11 @@
+print('='*70)
+
+nome = str()
+
+nome = (input('escreva seu nome: '))
+
+emon = nome[::-1]
+
+print(emon.upper())
+
+print('='*70)
