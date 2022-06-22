@@ -1,0 +1,29 @@
+print('='*70)
+
+#notas dos alunos
+
+medias = list()
+
+for aluno in range(10):
+    
+    soma = 0
+    
+    print(f'notas aluno {aluno+1}')
+    
+    for nota in range(4):
+    
+        soma += float(input(f'digite a {nota+1}ª nota: '))
+        
+        medias.append(soma/4)
+        
+aprovados = 0
+
+for media in medias:
+    
+    if media >= 7:
+    
+        aprovados += 1
+        
+print(f'{aprovados} foram aprovados na materia')
+    
+print('='*70)
