@@ -17,6 +17,8 @@ for i in range(3):
             
             matriz[i][j]=x*matriz[i][j]
             
+            
+            
 print(matriz)
 
 
